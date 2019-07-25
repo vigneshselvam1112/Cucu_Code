@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login with valid data",
+        "description": "",
+        "id": "test-login-functionality;login-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13811656600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens login portal",
+            "match": {
+              "location": "StepDefinition.user_opens_login_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131236500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters username as \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.user_enters_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80206000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters password as \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.user_enters_password_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5436719800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Clicks on singn button",
+            "match": {
+              "location": "StepDefinition.clicks_on_singn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281405200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate login success",
+            "match": {
+              "location": "StepDefinition.validate_login_success()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Login functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Test/Demo.feature",
+    "tags": []
+  }
+]
